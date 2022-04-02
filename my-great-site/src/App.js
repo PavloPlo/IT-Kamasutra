@@ -1,12 +1,15 @@
 import './App.css';
 import Header from './Header/Header';
-import Technologies from './Technologies/Technologies';
+
+import Body from './Body/Body';
+import Footer from './Footer/Footer';
 const App = ()=> {
   return (
-    <div>
+    <div className = "all" >
       
     <Header/>
-    <Technologies/>
+    <Body/>
+    <Footer/>
           
     </div>
   );
