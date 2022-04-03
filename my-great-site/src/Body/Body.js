@@ -20,7 +20,7 @@ const Body = () => {
             <div>Item#3</div>
             <div>Item#4</div>
           </div>
-          <h2 className="news-section-title">News in picture</>
+          <h2 className="news-section-title">News in picture</h2>
           <div className="news-in-picture" >
             <div>Item#1</div>
             <div>Item#2</div>
