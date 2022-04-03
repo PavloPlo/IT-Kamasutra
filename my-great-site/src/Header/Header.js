@@ -7,7 +7,7 @@ const Header = () =>{
   <a href = "#s">Item 2</a>
   <a href = "#s">Item 3 </a>
   <a href = "#s">Item 4 </a>
-  <div>Commercial space</div>
+  <div className = "460*60_ads">460*60 ADS SPACE</div>
   </div>  
   );}
   

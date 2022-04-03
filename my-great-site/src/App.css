@@ -2,8 +2,8 @@
   margin-left: 100px;
   margin-right: 100px;
   height: 2909px;
-filter: drop-shadow(0 0 10px rgba(0,0,0,0.2));
-background-color: #ffffff;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.2));
+  background-color: #ffffff;
 }
 
 .logo {
@@ -21,37 +21,83 @@ background-color: #ffffff;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
+
+}
+
+.header-navmenu div {
+  border-color: rgb(202, 202, 214);
+  border-style: dashed;
 }
 
 .promo-news-carousel {
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(33, 78, 177);
+
+  border-style: dashed;
 }
 
 .promo-news-carousel .promo-news {
   width: 252px;
   height: 352px;
+  border-color: rgb(163, 49, 104);
+  border-style: dashed;
   background-color: #b1b1b1;
-  border: #faefef;
 }
-.news-content{
+
+.news-section-title {
+  font-size: 16px;
+  line-height: 24px;
+  color: #2d2d2d;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+.news-content {
   display: grid;
   grid-template-columns: 2;
   grid-template-columns: 50%;
-  grid-template-areas: 
-  "lg sm";
-}
-.news-content-lg{
-  grid-area: lg;
-}
-.news-content-sm{
-  grid-area: sm;
+  grid-template-areas:
+    "lg sm";
 }
 
-.footer{
+.news-content-lg {
+  grid-area: lg;
+  border-color: rgb(56, 197, 127);
+  border-style: dashed;
+}
+
+.news-content-sm {
+  grid-area: sm;
+  border-color: rgb(216, 159, 54);
+  border-style: dashed;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-columns: 50%;
+  grid-template-areas:
+    "l r";
+}
+
+.sm-l {
+  grid-area: l;
+  border-color: rgb(29, 22, 9);
+  border-style: dashed;
+}
+
+
+.ads-small{
+  
+}
+
+.sm-r {
+  grid-area: r;
+  border-color: rgb(29, 22, 9);
+  border-style: dashed;
+}
+
+
+.footer {
   width: 100%;
   height: 490px;
-background-color: #2d2d2d;
+  background-color: #2d2d2d;
 }
