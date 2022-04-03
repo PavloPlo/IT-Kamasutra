@@ -71,7 +71,7 @@ const Body = () => {
             </div>
           </div>
           <div className="sm-r">
-
+            <div>sponsores block</div>
           </div>
         </div>
       </div>
