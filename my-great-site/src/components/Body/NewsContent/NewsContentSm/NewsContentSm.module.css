@@ -1,0 +1,22 @@
+.newsContentSm {
+    grid-area: sm;
+    border-color: rgb(216, 159, 54);
+    border-style: dashed;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-columns: 50%;
+    grid-template-areas:
+        "l r";
+}
+
+.smL {
+    grid-area: l;
+    border-color: rgb(29, 22, 9);
+    border-style: dashed;
+}
+
+.smR {
+    grid-area: r;
+    border-color: rgb(29, 22, 9);
+    border-style: dashed;
+}

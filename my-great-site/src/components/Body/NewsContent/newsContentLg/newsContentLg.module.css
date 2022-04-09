@@ -1,0 +1,5 @@
+.newsContentLg {
+    grid-area: lg;
+    border-color: rgb(56, 197, 127);
+    border-style: dashed;
+}
