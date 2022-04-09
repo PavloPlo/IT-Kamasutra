@@ -1,8 +1,8 @@
 import './App.css';
-import Header from './Header/Header';
+import Header from './components/Header/Header';
 
-import Body from './Body/Body';
-import Footer from './Footer/Footer';
+import Body from './components/Body/Body';
+import Footer from './components/Footer/Footer';
 const App = () => {
   return (
     <div className="app-wrapper" >
