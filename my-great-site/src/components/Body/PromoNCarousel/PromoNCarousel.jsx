@@ -1,9 +1,9 @@
 import PromoNews from "./PromoNews/PromoNews";
-import с from './PromoNCarousel.module.css'
+import c from './PromoNCarousel.module.css'
 
 const PromoNewsCarousel = function(){
     return(
-        <div className={с.promoCarousel}>
+        <div className={c.promoCarousel}>
        <PromoNews/>
        <PromoNews/>
        <PromoNews/>
