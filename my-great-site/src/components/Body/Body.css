@@ -1,0 +1,44 @@
+.news-section-title {
+    font-size: 16px;
+    line-height: 24px;
+    color: #2d2d2d;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.news-content {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-columns: 50%;
+    grid-template-areas:
+        "lg sm";
+}
+
+.news-content-lg {
+    grid-area: lg;
+    border-color: rgb(56, 197, 127);
+    border-style: dashed;
+}
+
+.news-content-sm {
+    grid-area: sm;
+    border-color: rgb(216, 159, 54);
+    border-style: dashed;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-columns: 50%;
+    grid-template-areas:
+        "l r";
+}
+
+.sm-l {
+    grid-area: l;
+    border-color: rgb(29, 22, 9);
+    border-style: dashed;
+}
+
+.sm-r {
+    grid-area: r;
+    border-color: rgb(29, 22, 9);
+    border-style: dashed;
+}

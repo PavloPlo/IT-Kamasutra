@@ -1,0 +1,6 @@
+.promoCarousel {
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-style: dashed;
+  }

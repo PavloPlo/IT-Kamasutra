@@ -1,0 +1,8 @@
+.item {
+    font-size: 16px;
+    width: 252px;
+    height: 352px;
+    border-color: rgb(163, 49, 104);
+    border-style: dashed;
+    background-color: #b1b1b1;
+  }
